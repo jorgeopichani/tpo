@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UshuaiaFascinante</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="aCercaDe.html">Acerca de</a>
+            <a href="testimonios.html">Testimonios</a>
+            <a href="actividades.html">Actividades</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <section class="textos-header">
+            <h1>Ushuaia - Fin del Mundo</h1>
+            <h2>Vení a conocerla</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              resize: vertical;
+            }
+            
+            label {
+              padding: 12px 12px 12px 0;
+              display: inline-block;
+            }
+            
+            input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              float: right;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+            
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+            
+            .col-25 {
+              float: left;
+              width: 25%;
+              margin-top: 6px;
+            }
+            
+            .col-75 {
+              float: left;
+              width: 75%;
+              margin-top: 6px;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+              .col-25, .col-75, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+              }
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h2>Opiniones</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, eaque.</p>
+            
+            <div class="container">
+              <form action="/action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">Nombre</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Apellido</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="country">Pais</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="china">China</option>
+                    <option value="alemania">Alemania</option>
+                    <option value="otro">otro</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Mensaje</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Enviar">
+              </div>
+              </form>
+            </div>
+            
+        <footer>
+             <div class="contenedor-footer">
+                   <div class="content-foo">
+                        <h4>Teléfono</h4>
+                        <p>8296312</p>
+                    </div>
+                    <div class="content-foo">
+                        <h4>Correo-e</h4>
+                        <p>ushaia@fascinante.com</p>
+                    </div>
+                    <div class="content-foo">
+                        <h4>Direccion</h4>
+                        <p>Ushuaia Fascinante 9410</p>
+                    </div>
+                </div>
+                <h2 class="titulo-final">&copy; UshuaiaFascinante | Jorge Sanchez Opichani</h2>  
+       </footer>
+     </body>
+        
+ </html>
